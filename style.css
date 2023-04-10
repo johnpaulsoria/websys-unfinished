@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  transition: all 0.3s ease;
+}
+body{
+  height: 100vh;;
+  width: 100%;
+  display: flex;
+  background-color: #212121;
+}
+header{
+  height: 85vh;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 12;
+  border-radius: 25px;
+  margin: auto;
+  position: relative;
+}
+header .navbar{
+  margin: auto;
+  width: 100%;
+  padding: 35px 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .menu{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .logo img{
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+.navbar .menu li{
+  list-style: none;
+  margin: 0 6px;
+}
+.navbar .menu a{
+  color: #000;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.navbar .menu a:hover{
+  color: #f2f2f2;
+}
+.navbar .buttons input:hover{
+  transform: scale(0.97);
+}
+ header .text-content{
+   width: 40%;
+   margin: 50px 0 0 50px ;
+ }
+.text-content h2{
+  color: #f2f2f2;
+  font-size: 27px;
+  font-weight: 600;
+}
+.text-content h3{
+  color: #f2f2f2;
+}
+.text-content p{
+  color: #f2f2f2;
+  font-size: 15px;
+  margin-top: 10px;
+}
+@media (max-width:850px) {
+  header .navbar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+  }
+  .navbar .menu {
+    margin: 10px 0 20px 0;
+  }
+  header .text-content{
+    margin: 30px 0 0 20px ;
+    width: 70%;
+  }
+  header .text-content h2{
+    font-size: 18px;
+  }
+  header .text-content h3{
+    font-size: 15px;
+  }
+  header .text-content p{
+    font-size: 14px;
+  }
+  header .navbar .logo img{
+    margin-left: 45%;
+  }
+  header .footer-social-icons{
+    padding: 5px 5px;
+    margin-top: 20%;
+    margin-right: 2%;
+    margin-left: 3%;
+}
+  header .footer-social-icons ._14{
+    font-size: 1.2rem;
+  }
+}
+/*Footer starts HERE*/
+a {
+  text-decoration: none;
+  color: #fff;
+}
+p > a:hover{
+  color: #d9d9d9;
+  text-decoration:  underline;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin:  1% 0 1% 0;
+}
+._12 {
+  font-size: 1.2em;
+}
+._14 {
+  font-size: 1.4em;
+}
+ul {
+  padding:0;
+  list-style: none;
+}
+.footer-social-icons {
+  width: 350px;
+  display:block;
+  margin-left: 4%;
+  margin-top: 7%;
+}
+.social-icon {
+  color: #fff;
+}
+ul.social-icons {
+  margin-top: 10px;
+}
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+.fa-twitter {
+  padding:10px 12px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+
+.fa-youtube {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-youtube:hover {
+  background-color: #e64a41;
+}
+.fa-github {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-github:hover {
+  background-color: #5a32a3;
+}

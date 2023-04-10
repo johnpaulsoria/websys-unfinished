@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reserve</title>
+    <link rel="stylesheet" href="../Final Project in WebSys/reserve_style.css">
+</head>
+<body>
+    <section>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="../Final Project in WebSys/index.jpg">
+            </div>
+        <ul class="menu">
+            <li><a href="../Final Project in WebSys/index.html">Home</a></li>
+            <li><a href="../Final Project in WebSys/Reserve.html">Reserve</a></li>
+            <li><a href="#">Admin</a></li>
+            <li><a href="#">Offers</a></li>
+        </ul>
+        </nav>
+    </section>
+
+    <section>
+        <form class="main-form">
+            <center>
+                <div class="input-group">
+                    <label for="inputField">First Name</label><br>
+                    <input type="text" id="inputField" required="" autocomplete="off" class="input"><br>
+                    <button type="button" onclick="click1()">Submit</button><br><br>
+                    
+                    <label for="inputField">Last Name</label><br>
+                    <input type="text" id="inputField" required="" autocomplete="off" class="input"><br>
+                    <button type="button" onclick="click2()">Submit</button><br><br>
+                    
+                    <label for="inputField">E-mail Address</label><br>
+                    <input type="text" id="inputField" required="" autocomplete="off" class="input"><br>
+                    <button type="button" onclick="click3()">Submit</button><br><br>
+                    
+                    <label for="inputField">Current Address</label><br>
+                    <input type="text" id="inputField" required="" autocomplete="off" class="input"><br>
+                    <button type="button" onclick="click4()">Submit</button><br><br>
+                    
+                    <label for="inputField">Destination Address</label><br><br>
+                    <select id="select-box">
+                        <option value="option1">Manila, Philippines</option>
+                        <option value="option2">Taipei, Taiwan</option>
+                        <option value="option3">Tokyo, Japan</option>
+                        <option value="option4">Beijing, China</option>
+                        <option value="option5">Jakarta, Indonesia</option>
+                        <option value="option6">Kuala Lumpur, Malaysia</option>
+                        <option value="option7">Singapore, Singapore</option>
+                        <option value="option8">Naypyidaw, Myanmar</option>
+                        <option value="option9">Phnom Penh, Cambodia</option>
+                        <option value="option10">Vientiane, Laos</option>
+                        <option value="option11">New Delhi, India</option>
+                        <option value="option12">Hanoi, Vietnam</option>
+                        <option value="option13">Bandar Seri Begawan, Brunei</option>
+                        <option value="option14">Bangkok, Thailand</option>
+                        <option value="option15">Dili, Timor-Leste</option>
+                    </select><br><br>
+                    <button type="button" onclick="click5()">Submit</button><br><br>
+                    
+                    <label for="inputField">Flight Schedule</label><br>
+                    <input type="date" id="inputField" required="" autocomplete="off" class="input"><br>
+                    <button type="button" onclick="click6()">Submit</button><br><br>
+                    
+                    <label for="inputField">Pay via</label><br>
+                    <select id="select-box">
+                        <option value="option1">Visa</option>
+                        <option value="option2">GCash</option>
+                        <option value="option3">PayMaya</option>
+                        <option value="option4">BDO</option>
+                        <option value="option5">BPI</option>
+                    </select><br>
+                    <button type="button" onclick="click7()">Submit</button>
+                    <br><br>
+                    <button type="button" class="clear-button" onclick="click8">Clear Forms</button>
+                    <button type="button" class="submit-button" onclick="click9()">Submit Forms</button><br><br>
+                </div>
+            </center>
+        </form>
+    </section>
+</body>
+<script src="../Final Project in WebSys/reservation_script.js"></script>
+</html>
