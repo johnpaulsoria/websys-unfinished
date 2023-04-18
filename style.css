@@ -124,15 +124,14 @@ nav ul.active {
     font-size: 30px;
   }
   header {
-      padding: 2rem 3rem;
+      padding: 1rem 3rem;
   }
   nav ul {
       top: 65.18px;
       height: calc(100vh - 65.18px);
   }
   nav ul li {
-    padding-top: 40px;
-
+    padding-top: 20px;
 }
 }
 
