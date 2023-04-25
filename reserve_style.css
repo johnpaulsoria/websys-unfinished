@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 *{
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
@@ -59,6 +61,12 @@ body{
     height: 50%;
     padding: 5px 10px;
     border-radius: 25px;
+}
+p a{
+    color:#ffee00;
+    text-decoration-style: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
 }
 
 .input-group {
