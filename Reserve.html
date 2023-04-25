@@ -25,54 +25,54 @@
             <center>
                 <div class="input-group">
                     <label for="inputField">First Name</label><br>
-                    <input type="text" id="inputField" required="" autocomplete="off" class="input"><br>
-                    <button type="button">Submit</button><br><br>
+                    <input type="text" id="fullName" name="fullName" class="input" required=""><br><br>
+
                     
-                    <label for="inputField">Last Name</label><br>
-                    <input type="text" id="inputField" required="" autocomplete="off" class="input"><br>
-                    <button type="button">Submit</button><br><br>
+                    <label for="inputField">Phone Number</label><br>
+                    <input type="number" id="phoneNumber" name="phoneNumber" class="input" required=""><br><br>
+                    
                     
                     <label for="inputField">E-mail Address</label><br>
-                    <input type="text" id="inputField" required="" autocomplete="off" class="input"><br>
-                    <button type="button">Submit</button><br><br>
+                    <input type="email" id="emailAdd" name="emailAdd" class="input" required=""><br><br>
+                    
                     
                     <label for="inputField">Current Address</label><br>
-                    <input type="text" id="inputField" required="" autocomplete="off" class="input"><br>
-                    <button type="button">Submit</button><br><br>
+                    <input type="text" id="address" name="address" class="input" required=""><br><br>
                     
-                    <label for="inputField">Destination Address</label><br><br>
-                    <select id="select-box">
-                        <option value="option1">Manila, Philippines</option>
-                        <option value="option2">Taipei, Taiwan</option>
-                        <option value="option3">Tokyo, Japan</option>
-                        <option value="option4">Beijing, China</option>
-                        <option value="option5">Jakarta, Indonesia</option>
-                        <option value="option6">Kuala Lumpur, Malaysia</option>
-                        <option value="option7">Singapore, Singapore</option>
-                        <option value="option8">Naypyidaw, Myanmar</option>
-                        <option value="option9">Phnom Penh, Cambodia</option>
-                        <option value="option10">Vientiane, Laos</option>
-                        <option value="option11">New Delhi, India</option>
-                        <option value="option12">Hanoi, Vietnam</option>
-                        <option value="option13">Bandar Seri Begawan, Brunei</option>
-                        <option value="option14">Bangkok, Thailand</option>
-                        <option value="option15">Dili, Timor-Leste</option>
-                    </select><br>
-                    <button type="button">Submit</button><br><br>
+                    
+                    <label for="inputField">Destination Address</label><br>
+                    <select id="destiAdd" name="destiAdd" id="" required="">
+                        <option value="Manila, Philippines">Manila, Philippines</option>
+                        <option value="Taipei, Taiwan">Taipei, Taiwan</option>
+                        <option value="Tokyo, Japan">Tokyo, Japan</option>
+                        <option value="Beijing, China">Beijing, China</option>
+                        <option value="Jakarta, Indonesia">Jakarta, Indonesia</option>
+                        <option value="Kuala Lumpur, Malaysia">Kuala Lumpur, Malaysia</option>
+                        <option value="Singapore, Singapore">Singapore, Singapore</option>
+                        <option value="Naypyidaw, Myanmar">Naypyidaw, Myanmar</option>
+                        <option value="Phnom Penh, Cambodia">Phnom Penh, Cambodia</option>
+                        <option value="Vientiane, Laos">Vientiane, Laos</option>
+                        <option value="New Delhi, India">New Delhi, India</option>
+                        <option value="Hanoi, Vietnam">Hanoi, Vietnam</option>
+                        <option value="Bandar Seri Begawan, Brunei">Bandar Seri Begawan, Brunei</option>
+                        <option value="Bangkok, Thailand">Bangkok, Thailand</option>
+                        <option value="Dili, Timor-Leste">Dili, Timor-Leste</option>
+                    </select><br><br>
+                    
                     
                     <label for="inputField">Flight Schedule</label><br>
-                    <input type="date" id="inputField" required="" autocomplete="off" class="input"><br>
-                    <button type="button">Submit</button><br><br>
+                    <input type="date" id="flightSched" name="flightSched" required="" class="input"><br><br>
+                    
                     
                     <label for="inputField">Pay via</label><br>
-                    <select id="select-box">
-                        <option value="option1">Visa</option>
-                        <option value="option2">GCash</option>
-                        <option value="option3">PayMaya</option>
-                        <option value="option4">BDO</option>
-                        <option value="option5">BPI</option>
+                    <select id="pay" name="pay" required="">
+                        <option value="Visa">Visa</option>
+                        <option value="GCash">GCash</option>
+                        <option value="PayMaya">PayMaya</option>
+                        <option value="BDO">BDO</option>
+                        <option value="BPI">BPI</option>
                     </select><br>
-                    <button type="button">Submit</button>
+
                     <br><br>
                     <button type="button" class="submit-button" onclick="submitData()">Submit Forms</button><br><br>
                     <p>Note: To update/cancel your Flight Reservation, Reach us <a href="https://formsubmit.co/el/xukayu">Here</a></p>
